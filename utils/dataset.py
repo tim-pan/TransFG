@@ -568,7 +568,7 @@ class INat2017(VisionDataset):
                 raise RuntimeError("File not found or corrupted.")
 
 
-class fish():
+class fish(Dataset):
     def __init__(self, root, is_train=True, transform=None):
         self.root = root#/content/.../the-nature-conservancy-fisheries-monitoring/
         self.is_train = is_train
